@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#" class="form" name="myForm">
+        <h2>Form Nhập Thông Tin</h2>
+      <label for="" >Họ Và Tên</label>
+     <input type="text" placeholder="Họ tên" id="name" name="name"><br>
+
+     <label for="" >Email</label>
+     <input type="text" placeholder="email" id="mail" name="mail"><br>
+     <label for="">Số điện thoại</label>
+     <input type="number" placeholder="Sdt" id="phone" name="phone"><br>
+     <label for="">Quê quán</label>
+     <input type="text" placeholder="Quê quán" id="country" name="country"><br>
+
+     <label for="">Giới tính</label>
+     <select id="sex">
+        <option value="Nam">Nam</option>
+        <option value="Nữ">Nữ</option>
+      </select><br>
+     <button id="btnSubmit">Lưu Lại</button>
+    </form>
+    <br>
+    <table border="1">
+        <thead>
+          <tr>
+            <th>STT</th>
+            <th>Họ Tên</th>
+            <th>Email</th>
+            <th>Số Điện thoại</th>
+            <th>Quê Quán</th>
+            <th>Giới Tính</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+</body>
+<script src="index.js"></script>
+</html>

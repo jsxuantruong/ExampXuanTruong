@@ -1,0 +1,9 @@
+.form{
+    border: 1px solid black;
+    height: 300px;
+    width: 500px;
+}
+h2{
+    display: flex;
+   justify-content: center;
+}
